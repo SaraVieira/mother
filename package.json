@@ -18,7 +18,8 @@
 	},
 	"files": [
 		"index.js",
-		"cli.js"
+        "cli.js",
+        "reviews.json",
 	],
 	"keywords": [
 		"cli-app",
@@ -28,8 +29,7 @@
 	"dependencies": {
 		"chalk": "^2.3.0",
 		"jsonfile": "^4.0.0",
-		"meow": "^4.0.0",
-		"osmosis": "^1.1.6"
+		"meow": "^4.0.0"
 	},
 	"devDependencies": {
 		"eslint": "^4.16.0",
@@ -37,7 +37,7 @@
 		"eslint-plugin-import": "^2.8.0",
 		"eslint-plugin-node": "^5.2.1",
 		"eslint-plugin-promise": "^3.6.0",
-		"eslint-plugin-standard": "^3.0.1",
-		"microbundle": "^0.4.3"
+        "eslint-plugin-standard": "^3.0.1",
+        "osmosis": "^1.1.6"
 	}
 }
