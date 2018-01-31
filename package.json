@@ -14,9 +14,7 @@
 		"node": ">=4"
 	},
 	"scripts": {
-		"test": "eslint .",
-		"prepublish": "npm run build",
-		"build": "microbundle -i index.js"
+		"test": "eslint ."
 	},
 	"files": [
 		"index.js",
