@@ -15,7 +15,7 @@ $ yarn add mother-exclamation-mark
 ## Usage
 
 ```js
-const mother = require('mother');
+const mother = require('mother-exclamation-mark');
 
 mother();
 //=> mother review
@@ -51,15 +51,15 @@ $ yarn global add mother-exclamation-mark
 ```
 
 ```
-$ mother --help
+$ mother-exclamation-mark --help
 
 	Usage
-	  $ mother
+	  $ mother-exclamation-mark
 
 	Examples
-	  $ mother --good
+	  $ mother-exclamation-mark --good
 	  a bad review
-	  $ mother --bad
+	  $ mother-exclamation-mark --bad
 	  a good review
 ```
 
