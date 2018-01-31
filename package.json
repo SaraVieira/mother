@@ -1,0 +1,38 @@
+{
+	"name": "mother",
+	"version": "0.0.0",
+	"description": "Why use lorem when you can use random reviews from mother!",
+	"license": "MIT",
+	"repository": "saravieira/mother",
+	"author": {
+		"name": "Sara Vieira",
+		"email": "hey@iamsaravieira.com",
+		"url": "iamsaravieira.com"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "eslint .",
+		"prepublish": "npm run build",
+		"build": "microbundle -i index.js"
+	},
+	"files": ["index.js", "cli.js"],
+	"keywords": ["cli-app", "cli", "mother!"],
+	"dependencies": {
+		"chalk": "^2.3.0",
+		"jsonfile": "^4.0.0",
+		"meow": "^3.7.0",
+		"osmosis": "^1.1.6"
+	},
+	"devDependencies": {
+		"eslint": "^4.16.0",
+		"eslint-config-standard": "^11.0.0-beta.0",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-node": "^5.2.1",
+		"eslint-plugin-promise": "^3.6.0",
+		"eslint-plugin-standard": "^3.0.1",
+		"microbundle": "^0.4.3"
+	}
+}

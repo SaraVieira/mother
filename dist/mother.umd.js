@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n():"function"==typeof define&&define.amd?define(n):n()}(0,function(){var e=require("./reviews.json");module.exports=function(n){var t=e;return(n=n||{}).good&&(t=e.filter(function(e){return e.rating>5})),n.bad&&(t=e.filter(function(e){return e.rating<5})),t[Math.floor(Math.random()*t.length)]}});
+//# sourceMappingURL=mother.umd.js.map
