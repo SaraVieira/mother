@@ -14,7 +14,7 @@
 		"node": ">=4"
 	},
 	"scripts": {
-		"test": "eslint ."
+		"test": "eslint . --fix"
 	},
 	"files": [
 		"index.js",
