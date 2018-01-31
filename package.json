@@ -1,8 +1,8 @@
 {
-	"name": "mother",
+	"name": "mother-exclamation-mark",
 	"version": "0.0.0",
 	"description": "Why use lorem when you can use random reviews from mother!",
-	"license": "MIT",
+	"license": "WTFPL",
 	"repository": "saravieira/mother",
 	"author": {
 		"name": "Sara Vieira",
@@ -23,7 +23,7 @@
 	"dependencies": {
 		"chalk": "^2.3.0",
 		"jsonfile": "^4.0.0",
-		"meow": "^3.7.0",
+		"meow": "^4.0.0",
 		"osmosis": "^1.1.6"
 	},
 	"devDependencies": {

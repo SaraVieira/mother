@@ -9,7 +9,7 @@ I cannot recommend this module though
 ## Install
 
 ```
-$ yarn add mother
+$ yarn add mother-exclamation-mark
 ```
 
 ## Usage
@@ -47,7 +47,7 @@ Returns a good review for mother!
 ## CLI
 
 ```
-$ yarn global add mother
+$ yarn global add mother-exclamation-mark
 ```
 
 ```
