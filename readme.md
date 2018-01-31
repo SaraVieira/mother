@@ -2,6 +2,8 @@
 
 > Why use lorem when you can use random reviews from mother! ?
 
+![screenshot](image.png)
+
 Inspired by Javi Velasco and all the Agent Conf Crew.
 
 I cannot recommend this module though
@@ -18,7 +20,7 @@ $ yarn add mother-exclamation-mark
 const mother = require('mother-exclamation-mark');
 
 mother();
-//=> mother review
+//=> mother review with an object containing title, content and rating
 
 mother({ bad: true });
 //=> bad mother review
