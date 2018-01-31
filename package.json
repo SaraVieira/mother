@@ -19,7 +19,7 @@
 	"files": [
 		"index.js",
         "cli.js",
-        "reviews.json",
+        "reviews.json"
 	],
 	"keywords": [
 		"cli-app",
