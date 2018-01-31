@@ -1,6 +1,6 @@
 {
 	"name": "mother-exclamation-mark",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Why use lorem when you can use random reviews from mother!",
 	"license": "WTFPL",
 	"repository": "saravieira/mother",
@@ -18,8 +18,15 @@
 		"prepublish": "npm run build",
 		"build": "microbundle -i index.js"
 	},
-	"files": ["index.js", "cli.js"],
-	"keywords": ["cli-app", "cli", "mother!"],
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"mother!"
+	],
 	"dependencies": {
 		"chalk": "^2.3.0",
 		"jsonfile": "^4.0.0",
