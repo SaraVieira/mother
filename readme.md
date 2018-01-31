@@ -1,4 +1,4 @@
-# mother [![Build Status](https://travis-ci.org/saravieira/mother.svg?branch=master)](https://travis-ci.org/saravieira/mother)
+# mother [![Build Status](https://travis-ci.org/SaraVieira/mother.svg?branch=master)](https://travis-ci.org/SaraVieira/mother)
 
 > Why use lorem when you can use random reviews from mother! ?
 
